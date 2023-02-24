@@ -17,7 +17,7 @@ public class Weather {
 		// String city = "Dhanbad";
 
 		String url = "https://api.openweathermap.org/data/2.5/weather?q=";
-		String apiKey = "f2ed0652ff8b53e514e12fd808670488";
+		String apiKey = "";				// Please Mention your API key
 		String utility = ",in&appid=";
 		city = city.toLowerCase();
 		url = url + city + utility + apiKey;
